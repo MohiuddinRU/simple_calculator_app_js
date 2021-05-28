@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator </title>
+    </head>
+    <body>
+        <form name="calculator">
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" id="display" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" id="one" value="1" onclick="disp('1')"> </td>
+                    <td> <input type="button" id="two" value="2" onclick="disp('2')"> </td>
+                    <td> <input type="button" id="three" value="3" onclick="disp('3') "> </td>
+                    <td> <input type="button" id="operator" id="plus" value="+" onclick="disp('+') "> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" id="four" value="4" onclick="disp('4')"> </td>
+                    <td> <input type="button" id="five" value="5" onclick="disp('5')"> </td>
+                    <td> <input type="button" id="six" value="6" onclick="disp('6')"> </td>
+                    <td> <input type="button" class="operator" id="minus" value="-" onclick="disp('-') "> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" id="seven" value="7" onclick="disp('7')"> </td>
+                    <td> <input type="button" id="eight" value="8" onclick="disp('8')"> </td>
+                    <td> <input type="button" id="nine" value="9" onclick="disp('9') "> </td>
+                    <td> <input type="button" class="operator" id="multiply" value="x" onclick="disp('*') "> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" id="reset" value="C" onclick="clearScreen()"> </td>
+                    <td> <input type="button" id="zero" value="0" onclick="disp('0') "> </td>
+                    <td> <input type="button" id="equal" value="=" onclick="calculate()"> </td>
+                    <td> <input type="button" class="operator" id="divide" value="/" onclick="disp('/')"> </td>
+                </tr>
+            </table>
+        </form>
+        <script src="code.js"> </script>
+    </body>
+</html>
