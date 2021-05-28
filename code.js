@@ -12,3 +12,9 @@ function calculate(){
 function clearScreen(){
     document.getElementById("display").value = "";
 }
+
+function del(){
+    let str = document.getElementById("display").value;
+    str = str.slice(0, -1);
+    document.getElementById("display").value = str;
+}

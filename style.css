@@ -2,18 +2,20 @@
     display: grid;
     margin: auto;
     width: 20%;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     align-items: center;
 }
 button{
-    width: 100px;
+    width: 80px;
     height: 70px;
     text-align: center;
+    padding: 10px;
+    font-size: 2em;
 }
 #display{
     font-size: 2em;
-    grid-column: 1/4;
-    width: 100%;
+    grid-column: 1/5;
+    width: 98%;
     height: 70px;  
     text-align: right;
 }
